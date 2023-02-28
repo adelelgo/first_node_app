@@ -1,0 +1,94 @@
+[
+  { "id": 1, "fname": "omar", "lname": "adel", "age": 26, "city": "Cairo" },
+  {
+    "id": 2,
+    "fname": "retaj",
+    "lname": "mohamed",
+    "age": 23,
+    "city": "Cairo3"
+  },
+  { "id": 3, "fname": "Mohamed", "lname": "ahmed", "age": 30, "city": "alex" },
+  { "id": 4, "fname": "ali", "lname": "alsayed", "age": 28, "city": "aswan" },
+  { "id": 5, "fname": "ahmed", "lname": "mohamed", "age": 35, "city": "giza" },
+  { "id": 6, "fname": "adel", "lname": "ahmed", "age": 44, "city": "cairo" },
+  {
+    "id": 7,
+    "fname": "osama",
+    "lname": "mohamed",
+    "age": 26,
+    "city": "Cairo3"
+  },
+  { "id": 8, "fname": "akram", "lname": "monir", "age": 19, "city": "monofia" },
+  { "id": 9, "fname": "ali", "lname": "ahemd", "age": 18, "city": "cairo" },
+  { "id": 10, "fname": "hamada", "lname": "hassan", "age": 45, "city": "alex" },
+  {
+    "id": 11,
+    "fname": "omar11",
+    "lname": "adel11",
+    "age": 50,
+    "city": "Cairo"
+  },
+  {
+    "id": 12,
+    "fname": "retaj12",
+    "lname": "mohamed12",
+    "age": 60,
+    "city": "alex"
+  },
+  {
+    "id": 12,
+    "fname": "Mohamed12",
+    "lname": "ahmed12",
+    "age": 16,
+    "city": "cairo1"
+  },
+  {
+    "id": 13,
+    "fname": "ali13",
+    "lname": "alsayed13",
+    "age": 28,
+    "city": "aswan13"
+  },
+  {
+    "id": 14,
+    "fname": "ahmed14",
+    "lname": "mohamed14",
+    "age": 35,
+    "city": "giza14"
+  },
+  {
+    "id": 15,
+    "fname": "adel15",
+    "lname": "ahmed15",
+    "age": 44,
+    "city": "cairo15"
+  },
+  {
+    "id": 16,
+    "fname": "osama16",
+    "lname": "mohamed16",
+    "age": 26,
+    "city": "Cairo16"
+  },
+  {
+    "id": 17,
+    "fname": "akram17",
+    "lname": "monir17",
+    "age": 19,
+    "city": "monofia17"
+  },
+  {
+    "id": 18,
+    "fname": "ali18",
+    "lname": "ahemd18",
+    "age": 18,
+    "city": "cairo18"
+  },
+  {
+    "id": 19,
+    "fname": "hamada19",
+    "lname": "hassan19",
+    "age": 45,
+    "city": "alex19"
+  }
+]
