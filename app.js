@@ -22,6 +22,24 @@ yargs.command({
 });
 
 yargs.command({
+  command: "addSumAndAvarege",
+  describe: "add Sum And Avarege To All Data",
+  builder: {},
+  handler: (x) => {
+    data10.addSumAndAvarege();
+  },
+});
+
+yargs.command({
+  command: "resetSumAndAvarege",
+  describe: "Reset Sum And Avarege All Data",
+  builder: {},
+  handler: (x) => {
+    data10.resetSumAndAvarege();
+  },
+});
+
+yargs.command({
   command: "del",
   describe: "delllllllll",
   builder: {},

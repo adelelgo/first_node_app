@@ -16,11 +16,41 @@ const addPerson = (id, fname, lname, age, city) => {
       lname: lname,
       age: age,
       city: city,
+      materials: [
+        { id: 1, material_name: "Math", grade: 0 },
+        { id: 2, material_name: "bio", grade: 0 },
+        { id: 3, material_name: "social", grade: 0 },
+        { id: 4, material_name: "arabic", grade: 0 },
+        { id: 5, material_name: "english", grade: 0 },
+        { id: 6, material_name: "french", grade: 0 },
+      ],
     });
     saveAllData(allData);
   } else {
     console.log("Error Dublicated ID");
   }
+};
+
+const addSumAndAvarege = () => {
+  const allData = loadData();
+
+  // console.log(allData.length);
+  if (allData.length > 0) {
+    saveAllData(allData);
+  } else {
+    console.log("Error addSumAndAvarege");
+  }
+};
+
+const resetSumAndAvarege = () => {
+  const allData = loadData();
+
+  allData.forEach((element) => {
+    element.total = 0;
+    element.avg = 0;
+  });
+
+  saveAllData(allData);
 };
 
 const getPersonById = (id) => {
@@ -90,7 +120,12 @@ const delPerson = (id) => {
 const getList = () => {
   const allData = loadData();
   allData.map(function (item) {
-    console.log(item.fname, item.lname);
+    console.log(
+      item.fname,
+      item.lname,
+      "Total : " + item.total,
+      "The Avarage : " + item.avg
+    );
   });
 };
 
@@ -118,4 +153,6 @@ module.exports = {
   delPerson,
   getPersonById,
   getList,
+  addSumAndAvarege,
+  resetSumAndAvarege,
 };
